@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo{
+    width: 120px;
+    height: 50px;
+}
+
+.search{
+    width: 100%;
+    margin: 0 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .icons{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+}
+
+@media screen and (max-width: 475px) {
+    
+}
